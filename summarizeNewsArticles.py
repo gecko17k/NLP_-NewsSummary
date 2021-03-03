@@ -159,7 +159,7 @@ sentiment = tk.Text(root, height=1, width=140)
 sentiment.config(state="disabled", bg="#dddddd")
 sentiment.pack()
 
-urllabel = tk.Label(root, text="URL") #", no quotes please.")
+urllabel = tk.Label(root, text="URL, no quotes please.")
 urllabel.pack()
 urltext = tk.Text(root, height=1, width=140)
 urltext.pack()
